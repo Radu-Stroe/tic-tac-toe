@@ -1,0 +1,54 @@
+/* ELEMENTS */
+
+body {
+    background: url(tic-tac-toe.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* IDS */
+
+#header {
+    height: 120px;
+    border-bottom: solid white 2px;
+}
+
+#board {
+    height: 450px;
+    width: 450px;
+    margin: 0 auto;
+    border: solid white 2px;
+}
+
+/* CLASSES */
+
+.restart {
+    margin: 40px auto;
+    display: block;
+
+    height: 50px;
+    width: 150px;
+    border: solid white 2px;
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+}
+
+/* LOCATORS */
+
+#header p {
+    font-size: 100px;
+    margin: 10px 0 ;
+    text-align: center;
+}
+
+#message p {
+    font-size: 50px;
+    margin: 30px ;
+    text-align: center;
+}
