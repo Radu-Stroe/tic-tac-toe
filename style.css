@@ -20,11 +20,21 @@ body {
 #board {
     height: 450px;
     width: 450px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
-    border: solid white 2px;
+    border: solid white 1px;
 }
 
 /* CLASSES */
+
+.boardElement {
+    border: solid white 1px;
+    font-size: 70px;
+    padding-top: 30px;
+    text-align: center;
+}
 
 .restart {
     margin: 40px auto;
