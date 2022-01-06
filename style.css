@@ -24,7 +24,10 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
-    border: solid white 1px;
+}
+
+#message {
+    text-align: center;
 }
 
 /* CLASSES */
@@ -39,7 +42,7 @@ body {
     text-align: center;
 }
 
-.restart {
+.restart, .start {
     margin: 40px auto;
     display: block;
 
@@ -60,8 +63,17 @@ body {
     text-align: center;
 }
 
-#message p {
+#message h2 {
+    min-height: 60px;
+    font-weight: 500;
     font-size: 50px;
-    margin: 30px ;
+    margin: 70px ;
+}
+
+#message input {
+    height: 40px;
+    width: 250px;
+    margin-top: 30px;
+    font-size: 30px;
     text-align: center;
 }
