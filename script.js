@@ -4,25 +4,7 @@ const restartButton = document.querySelector('.restart');
 const message = document.querySelector('#message h2');
 const input = document.querySelector('#message input');
 
-
 let playerFlag = true;
-
-//LOCAL STORAGE
-// const gameBoardLocalStorage = (() => {
-//     const saveToLocalStorage = () => {
-//         localStorage.setItem('gameBoard', JSON.stringify(gameBoard.array));
-//         window.location = window.location;
-//       }
-      
-//     const loadFromLocalStorage = () => {
-//         if(localStorage.getItem('gameBoard') != null) {
-//             console.log(gameBoard.array)
-//             gameBoard.array = JSON.parse(localStorage.getItem('gameBoard')).array;
-//             console.log(gameBoard.array)
-//         }
-//     };
-//     return { saveToLocalStorage, loadFromLocalStorage};
-// })();
 
 //PLAYERS
 let players = (name, symbol) => {
